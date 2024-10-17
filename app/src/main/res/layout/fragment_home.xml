@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/tv_recherche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="100dp"
+        android:text="Recherche Position"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Saisir le numéro de téléphone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Envoyer SMS"
+        app:cornerRadius="50px" />
+
+</LinearLayout>
